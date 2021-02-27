@@ -35,11 +35,29 @@
 
 ## Kinds of Service Discovery
 
+* Server-side service discovery
+* Client-side service discovery
 
-Server-side service discovery
+---
 
-Client-side service discovery
-    
+## Server-side service discovery
+
+> When making a request to a service, the client makes a request via a router (a.k.a load balancer) that runs at a well known location. The router queries a service registry, which might be built into the router, and forwards the request to an available service instance.
+
+[source](https://microservices.io/patterns/server-side-discovery.html)
+
+
+![title](_assets/img/server-side-discovery.jpg)
+
+
+---
+
+## Client-side service discovery
+> When making a request to a service, the client obtains the location of a service instance by querying a Service Registry, which knows the locations of all service instances.
+
+[source](https://microservices.io/patterns/client-side-discovery.html)
+
+![title](_assets/img/client-side-discovery.jpg)
 
 ---
 
