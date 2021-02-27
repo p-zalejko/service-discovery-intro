@@ -47,6 +47,10 @@
 [source](https://microservices.io/patterns/server-side-discovery.html)
 
 
+---
+
+## Server-side service discovery
+
 ![title](assets/img/server-side-discovery.jpg)
 
 
@@ -56,6 +60,10 @@
 > When making a request to a service, the client obtains the location of a service instance by querying a Service Registry, which knows the locations of all service instances.
 
 [source](https://microservices.io/patterns/client-side-discovery.html)
+
+---
+
+## Client-side service discovery
 
 ![title](assets/img/client-side-discovery.jpg)
 
