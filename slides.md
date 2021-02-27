@@ -47,7 +47,7 @@
 [source](https://microservices.io/patterns/server-side-discovery.html)
 
 
-![title](_assets/img/server-side-discovery.jpg)
+![title](assets/img/server-side-discovery.jpg)
 
 
 ---
@@ -57,7 +57,7 @@
 
 [source](https://microservices.io/patterns/client-side-discovery.html)
 
-![title](_assets/img/client-side-discovery.jpg)
+![title](assets/img/client-side-discovery.jpg)
 
 ---
 
