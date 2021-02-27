@@ -5,21 +5,20 @@
 
 ## The definition
 
-```
-Service discovery is how applications and (micro)services locate each other on a network
 
-```
+> Service discovery is how applications and (micro)services locate each other on a network
+
 [source](https://www.getambassador.io/resources/service-discovery-microservices/)
 
 
 
-```
-Service discovery is the automatic detection of devices and services offered by these devices on a computer network.
-```
+> Service discovery is the automatic detection of devices and services offered by these devices on a computer network.
+
 [source](https://en.wikipedia.org/wiki/Service_discovery)
 
 
 ---
+
     
 ## Why do we need service discovery? 
 
@@ -31,6 +30,8 @@ Service discovery is the automatic detection of devices and services offered by 
 
 ..* load balancing
 
+
+---
 
 ## Kinds of Service Discovery
 
