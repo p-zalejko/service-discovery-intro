@@ -22,13 +22,13 @@
     
 ## Why do we need service discovery? 
 
-⋅⋅* simplify the configuration and reduce effort
+* simplify the configuration and reduce effort
 
-⋅⋅* discover each other dynamically
+* discover each other dynamically
 
-⋅⋅* health monitoring
+* health monitoring
 
-..* load balancing
+* load balancing
 
 
 ---
