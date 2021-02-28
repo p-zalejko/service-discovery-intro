@@ -207,7 +207,7 @@ always...
 * have a custom shutdown endpoint
 * check your configuration and count time
 * deregister the service but do not stop it yet
-* wait for refreshing list of services by all possible instances
+* wait for refreshing list of services by all instances
 * stop it now
 
 ---
