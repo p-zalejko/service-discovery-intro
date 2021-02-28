@@ -95,6 +95,7 @@
 
 Note: 
 ingress exposes services)
+
 ---
 
 ## k8s - basics
