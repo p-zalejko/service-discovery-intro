@@ -178,8 +178,11 @@ client-side load balancers need to get the  new list of services
 * k8s solutions control Pods, impact Service and Ingress
 ---
 
-## Eureka self-preservation mode can be tricky
+## Eureka self-preservation mode and k8s can be tricky
 
+> The mechanism that stops evicting the instances when the heartbeats are below the expected threshold is called self-preservation. This might happen in the case of a poor network partition, where the instances are still up, but just can't be reached for a moment or in the case of an abrupt client shutdown.
+
+[source](https://www.baeldung.com/eureka-self-preservation-renewal)
 ---
 
 ## Graceful shutdown!
