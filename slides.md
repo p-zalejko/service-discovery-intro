@@ -91,8 +91,10 @@
 - deplpyment
 - pod
 - service
-- ingress (exposes services!)
+- ingress
 
+Note: 
+ingress exposes services)
 ---
 
 ## k8s - basics
