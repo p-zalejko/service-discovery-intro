@@ -72,7 +72,7 @@
 
 ## Implementations
 
-* Service Discovery (DNS-SD) 
+* DNS Service Discovery (DNS-SD)
 * Service Location Protocol (SLP).
 * Apache Zookeeper, Consul, etcd, Netflix Eureka
 
@@ -87,6 +87,7 @@
 - ingress (exposes services!)
 
 ---
+
 ## k8s - basics
 
 
@@ -100,6 +101,8 @@
 - load balancer
 - respect readiness ~~and liveness~~ probes 
 - use selectors
+
+---
 
 ## Service - example
 
@@ -116,6 +119,7 @@ spec:
       port: 80
       targetPort: 9376
 ```
+
 ---
 
 ## Netflix Eureka
