@@ -219,4 +219,8 @@ use readiness and liveness
 * wait for refreshing list of services by all instances
 * stop it now
 
+Note:
+Count time of refresh, all parts.
+Ribbon, eureka client and server
+
 ---
