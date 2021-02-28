@@ -172,7 +172,7 @@ spec:
 ## Refresh interval is crucial
 
 * eureka server (many parameters)
-* eureka client (`eureka.client.registryFetchIntervalSeconds`)
+* eureka client (`registryFetchIntervalSeconds`)
 * ribbon (`ServerListRefreshInterval`)
 
 Note: 
@@ -184,6 +184,7 @@ client-side load balancers need to get the  new list of services
 
 * Eureka has its own solutions
 * k8s solutions control Pods, impact Service and Ingress
+
 ---
 
 ## Eureka self-preservation mode and k8s can be tricky
@@ -200,7 +201,8 @@ always...
 
 ---
 
-## Ugly solution - "delayed" shutdown
+## Ugly solution 
+### "Delayed" shutdown
 
 * have a custom shutdown endpoint
 * check your configuration and count time
