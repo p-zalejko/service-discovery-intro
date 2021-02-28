@@ -24,6 +24,7 @@
 ![title](assets/img/service_discovery_problem.png)
 
 [source](https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/)
+
 ---
 
     
