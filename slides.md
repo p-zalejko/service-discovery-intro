@@ -153,13 +153,13 @@ spec:
 
 ---
 
-## Spring + Netflix Eureka + Ribbon
+## Spring + Eureka + Ribbon
 
 ![title](assets/img/spring_eureka_ribbon.png)
 
 ---
 
-## Spring + Netflix Eureka + Ribbon + k8s
+## Spring + Eureka + Ribbon + k8s
 
 ![title](assets/img/spring_eureka_ribbon_k8s.png)
 
