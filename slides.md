@@ -183,7 +183,7 @@ client-side load balancers need to get the  new list of services
 ## k8s readiness and liveness probes vs Eureka
 
 * Eureka has its own solutions
-* k8s solutions control Pods, impact Service and Ingress
+* k8s solutions control Pods, impact Services and Ingresses
 
 ---
 
