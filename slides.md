@@ -186,11 +186,17 @@ client-side load balancers need to get the  new list of services
 ---
 
 ## Graceful shutdown!
+ 
+always...
 
 ---
 
+## "Delayed" shutdown
 
-## Count time 
-
+* have a custom shutdown endpoint
+* check your configuration and count time
+* deregister the service but do not stop it yet
+* wait for refreshing list of services by all possible instances
+* stop it now
 
 ---
