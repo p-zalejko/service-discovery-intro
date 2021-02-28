@@ -199,6 +199,11 @@ client-side load balancers need to get the  new list of services
  
 always...
 
+Note: 
+deregister from external systems, brokers, databases etc.
+create a proper dockerfile configuration
+use readiness and liveness
+
 ---
 
 ## Ugly solution 
