@@ -167,6 +167,9 @@ spec:
 * eureka client (`eureka.client.registryFetchIntervalSeconds`)
 * ribbon (`ServerListRefreshInterval`)
 
+Note: 
+client-side load balancers need to get the  new list of services
+
 ---
 
 ## k8s readiness and liveness probes vs Eureka
