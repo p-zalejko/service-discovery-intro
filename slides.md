@@ -195,7 +195,7 @@ client-side load balancers need to get the  new list of services
 
 ---
 
-## Graceful shutdown!
+## Graceful shutdown
  
 always...
 
