@@ -200,7 +200,7 @@ always...
 
 ---
 
-## "Delayed" shutdown
+## Ugly solution - "delayed" shutdown
 
 * have a custom shutdown endpoint
 * check your configuration and count time
