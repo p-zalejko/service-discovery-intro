@@ -155,9 +155,10 @@ spec:
 ## Spring + Netflix Eureka + Ribbon + k8s
 
 ![title](assets/img/spring_eureka_ribbon_k8s.png)
+
 ---
 
-## Lessons Learned
+# Lessons Learned
 
 ---
 
@@ -183,6 +184,7 @@ client-side load balancers need to get the  new list of services
 > The mechanism that stops evicting the instances when the heartbeats are below the expected threshold is called self-preservation. This might happen in the case of a poor network partition, where the instances are still up, but just can't be reached for a moment or in the case of an abrupt client shutdown.
 
 [source](https://www.baeldung.com/eureka-self-preservation-renewal)
+
 ---
 
 ## Graceful shutdown!
