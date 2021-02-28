@@ -1,4 +1,5 @@
 ## Service discovery 
+
 ### the good the bad and the k8s
 
 ---
@@ -11,7 +12,6 @@
 [source](https://www.getambassador.io/resources/service-discovery-microservices/)
 
 
-
 > Service discovery is the automatic detection of devices and services offered by these devices on a computer network.
 
 [source](https://en.wikipedia.org/wiki/Service_discovery)
@@ -22,7 +22,7 @@
     
 ## Why do we need service discovery? 
 
-* simplify the configuration and reduce effort
+* reduce effort
 
 * discover each other dynamically
 
@@ -57,6 +57,7 @@
 ---
 
 ## Client-side service discovery
+
 > When making a request to a service, the client obtains the location of a service instance by querying a Service Registry, which knows the locations of all service instances.
 
 [source](https://microservices.io/patterns/client-side-discovery.html)
@@ -71,17 +72,14 @@
 
 ## Implementations
 
-Service registry
-Service Discovery (DNS-SD) 
-Service Location Protocol (SLP).
-
-
-Apache Zookeeper, Consul, or etcd, Netflix Eureka
+* Service Discovery (DNS-SD) 
+* Service Location Protocol (SLP).
+* Apache Zookeeper, Consul, etcd, Netflix Eureka
 
 
 ---
 
-## k8s
+## k8s - basics
 
 - deplpyment
 - pod
@@ -89,12 +87,10 @@ Apache Zookeeper, Consul, or etcd, Netflix Eureka
 - ingress (exposes services!)
 
 ---
+## k8s - basics
 
-## k8s - c.d.
-- pods have random IP addresses
-- pods have random* hostnames, but they are not in DNS
-- pods' hostnames and IPs change
-- servoces have IPs that do not change*
+
+![title](assets/img/k8s.png)
 
 ---
 
@@ -102,13 +98,60 @@ Apache Zookeeper, Consul, or etcd, Netflix Eureka
 
 - server-side service discovery
 - load balancer
-- respect readiness and liveness probes (mainly readiness)
+- respect readiness ~~and liveness~~ probes 
 - use selectors
 
-## Service - sample
+## Service - example
 
-IMAGE here
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+spec:
+  selector:
+    app: MyApp   (1)
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9376
+```
+---
+
+## Netflix Eureka
+
+![title](assets/img/eureka_arch.png)
+
+[source](https://www.codeprimers.com/client-side-service-discovery-in-spring-boot-with-netflix-eureka/)
+
+---
+
+## Netflix Eureka - core elements
+
+* Service registry
+* Eureka client
+
+---
+
+## Ribbon
+
+![title](assets/img/ribbon.jpg)
+
+[source](https://www.javaxp.com/2020/06/client-side-load-balancing-using-eureka.html)
 
 
+---
 
-## Challenges when eureka and/or ribbon used
+## Spring + Netflix Eureka + Ribbon
+
+
+---
+
+## Spring + Netflix Eureka + Ribbon + k8s
+
+
+---
+
+## Lessons Learned
+
+---
