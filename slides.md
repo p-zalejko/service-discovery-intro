@@ -73,8 +73,8 @@
 ## Implementations
 
 * DNS Service Discovery (DNS-SD)
-* Service Location Protocol (SLP).
-* Apache Zookeeper, Consul, etcd, Netflix Eureka
+* Service Location Protocol (SLP)
+* Apache Zookeeper, Consul, etcd, Netflix Eureka etc.
 
 
 ---
@@ -99,8 +99,8 @@
 
 - server-side service discovery
 - load balancer
-- respect readiness ~~and liveness~~ probes 
-- use selectors
+- relies on readiness ~~and liveness~~ probes 
+- uses selectors
 
 ---
 
@@ -108,15 +108,15 @@
 
 ```yaml
 apiVersion: v1
-kind: Service
+kind: Service                      (1)
 metadata:
   name: my-service
 spec:
   selector:
-    app: MyApp   (1)
+    app: MyApp                     (2)
   ports:
     - protocol: TCP
-      port: 80
+      port: 80                     (3)
       targetPort: 9376
 ```
 
@@ -148,14 +148,43 @@ spec:
 
 ## Spring + Netflix Eureka + Ribbon
 
+![title](assets/img/spring_eureka_ribbon.png)
 
 ---
 
 ## Spring + Netflix Eureka + Ribbon + k8s
 
-
+![title](assets/img/spring_eureka_ribbon_k8s.png)
 ---
 
 ## Lessons Learned
+
+---
+
+## Refresh interval is crucial
+
+* eureka server (many parameters)
+* eureka client (`eureka.client.registryFetchIntervalSeconds`)
+* ribbon (`ServerListRefreshInterval`)
+
+---
+
+## k8s readiness and liveness probes vs Eureka
+
+* Eureka has its own solutions
+* k8s solutions control Pods, impact Service and Ingress
+---
+
+## Eureka self-preservation mode can be tricky
+
+---
+
+## Graceful shutdown!
+
+---
+
+
+## Count time 
+
 
 ---
