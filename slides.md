@@ -161,6 +161,14 @@ spec:
 
 ![title](assets/img/spring_eureka_ribbon.png)
 
+[read this](https://github.com/spring-cloud/spring-cloud-netflix/issues/373#issuecomment-110331739)
+
+Note:
+ribbon has a cache
+eureka client has a cache
+ribbon calls eureka client :-)
+caches are not sychronized! refresh can take event 30s+30s = 1min!
+
 ---
 
 ## Spring + Eureka + Ribbon + k8s
