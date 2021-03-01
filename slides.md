@@ -218,6 +218,13 @@ client-side load balancers need to get the  new list of services
 
 ---
 
+## k8s rolling update 
+
+* imagine you have X instances of your service...
+* imagine you deploy X new services, each has Y instances...
+
+---
+
 ## Graceful shutdown
  
 always...
