@@ -225,7 +225,7 @@ Note:
 
 ---
 
-## Readiness and liveness probes 
+## Readiness and liveness 
 
 ### k8s vs Eureka
 
