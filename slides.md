@@ -191,7 +191,8 @@ caches are not sychronized! refresh can take event 30s+30s = 1min!
 
 ---
 
-## Understand technologies and architectures
+## Understand
+### technologies and architectures
 
 * eureka (registry, client)
 * ribbon
