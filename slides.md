@@ -21,7 +21,7 @@
 
 ## The problem
 
-![title](assets/img/service_discovery_problem.png =700x)
+![title](assets/img/service_discovery_problem.png){ width=50% }
 
 [source](https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/)
 
