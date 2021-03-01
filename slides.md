@@ -181,6 +181,16 @@ caches are not sychronized! refresh can take event 30s+30s = 1min!
 
 ---
 
+## Understand technologies
+
+* eureka (registry, client)
+* ribbon
+* caches
+* k8s
+* ...
+
+---
+
 ## Refresh interval is crucial
 
 * eureka server (many parameters)
