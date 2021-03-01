@@ -107,7 +107,7 @@ Ingress exposes services
 > etcd: Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data.
  
 
-<img src="assets/img/k8s_cluster.png" width="400">
+<img src="assets/img/k8s_cluster.png" width="700">
 
 ---
 
