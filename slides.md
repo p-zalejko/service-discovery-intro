@@ -262,7 +262,7 @@ Note:
 
 ## Graceful shutdown
  
-always...
+always!
 
 Note: 
 * deregister from external systems, brokers, databases etc.
