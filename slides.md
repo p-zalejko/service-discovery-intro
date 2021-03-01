@@ -104,6 +104,14 @@ Ingress exposes services
 
 ## k8s - basics
 
+> etcd: Consistent and highly-available key value store used as Kubernetes' backing store for all cluster data.
+ 
+
+<img src="https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg" width="400">
+
+---
+
+## k8s - basics
 
 ![title](assets/img/k8s.png)
 
@@ -115,6 +123,9 @@ Ingress exposes services
 - load balancer
 - relies on readiness ~~and liveness~~ probes 
 - uses selectors
+
+Note:
+k8s uses etcd
 
 ---
 
@@ -251,5 +262,15 @@ use readiness and liveness
 Note:
 Count time of refresh, all parts.
 Ribbon, eureka client and server
+
+---
+
+## What if you need something more than pure SD?
+
+* blue-green deployment
+* weighted routing
+* routing/LB to external services
+* [From Service Discovery to Service Mesh](https://thenewstack.io/observability-from-service-discovery-to-service-mesh/)
+
 
 ---
