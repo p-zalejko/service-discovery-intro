@@ -234,10 +234,19 @@ client-side load balancers need to get the  new list of services
 
 ## k8s rolling update 
 
-* imagine you have X instances of your service...
-* imagine you deploy X new services, each has Y instances...
+* imagine you have X services
+* imagine you have Y instances of each service...
+* imagine you deploy Z new services...
+* ... and you have eureka with self-preservation mode
+
+Note:
+low number of instances is a problem (early stage of the project)
+x=5
+y=2
+z=2
 
 ---
+
 
 ## Graceful shutdown
  
