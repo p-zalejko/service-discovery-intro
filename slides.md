@@ -89,10 +89,11 @@
 
 ## k8s - basics
 
-- deplpyment
-- pod
-- service
-- ingress
+- Deplpyment
+- ReplicaSet
+- Pod
+- Service
+- Ingress
 
 Note: 
 ingress exposes services)
