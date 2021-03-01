@@ -165,7 +165,9 @@ Note:
 
 <img src="assets/img/ribbon.jpg" width="400">
 
-Controversial opinion: you might be using Ribbon and do not know about it!
+Controversial opinion: 
+
+you might be using Ribbon and do not know about it!
 * [Ribbon+RestTemplate](https://spring.io/guides/gs/client-side-load-balancing/)
 * [Ribbon+feign client](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html)
 
