@@ -225,7 +225,9 @@ Note:
 
 ---
 
-## k8s readiness and liveness probes vs Eureka
+## Readiness and liveness probes 
+
+### k8s vs Eureka
 
 * Eureka has its own solutions
 * k8s solutions control Pods, impact Services and Ingresses
