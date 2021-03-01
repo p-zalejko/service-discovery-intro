@@ -185,6 +185,7 @@ caches are not sychronized! refresh can take event 30s+30s = 1min!
 
 * eureka (registry, client)
 * ribbon
+* spring (integration)
 * caches
 * k8s
 * ...
