@@ -217,8 +217,8 @@ Note:
 ## Refresh interval is crucial
 
 * eureka server (many parameters)
-* eureka client (`registryFetchIntervalSeconds`)
-* ribbon (`ServerListRefreshInterval`)
+* eureka client (*registryFetchIntervalSeconds*)
+* ribbon (*ServerListRefreshInterval*)
 
 Note: 
 * client-side load balancers need to get the  new list of services
