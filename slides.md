@@ -153,12 +153,8 @@ spec:
 
 [source](https://www.codeprimers.com/client-side-service-discovery-in-spring-boot-with-netflix-eureka/)
 
----
-
-## Netflix Eureka - core elements
-
-* Service registry
-* Eureka client
+Note:
+core elements: registry and client
 
 ---
 
