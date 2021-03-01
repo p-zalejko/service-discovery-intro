@@ -83,7 +83,7 @@
 * DNS Service Discovery (DNS-SD)
 * Service Location Protocol (SLP)
 * Apache Zookeeper, Consul, etcd, Netflix Eureka etc.
-* "Provisioned" solutions (AWS ELS, k8s Service etc.)
+* "Provisioned" solutions (AWS ELB, k8s Service etc.)
 
 ---
 
