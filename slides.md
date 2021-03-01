@@ -229,6 +229,8 @@ Note:
 
 ### k8s vs Eureka
 
+
+
 * Eureka has its own solutions
 * k8s solutions control Pods, impact Services and Ingresses
 
