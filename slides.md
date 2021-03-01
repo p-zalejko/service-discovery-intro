@@ -267,9 +267,9 @@ Ribbon, eureka client and server
 
 ## What if you need something more than pure SD?
 
-* blue-green deployment
-* weighted routing
-* routing/LB to external services
+* [blue-green or canary deployment](https://opensource.com/article/17/5/colorful-deployments)
+* [weighted routing, OpenShift example](https://docs.openshift.com/container-platform/3.9/architecture/networking/routes.html#alternateBackends)
+* [routing/LB to external services](https://medium.com/@ManagedKube/kubernetes-access-external-services-e4fd643e5097)
 * [Observability: From Service Discovery to Service Mesh](https://thenewstack.io/observability-from-service-discovery-to-service-mesh/)
 
 
