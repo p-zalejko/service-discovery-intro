@@ -161,7 +161,7 @@ spec:
 
 ![title](assets/img/spring_eureka_ribbon.png)
 
-[read this](https://github.com/spring-cloud/spring-cloud-netflix/issues/373#issuecomment-110331739)
+[read this: Client cache refresh + LoadBalancer refresh](https://github.com/spring-cloud/spring-cloud-netflix/issues/373#issuecomment-110331739)
 
 Note:
 ribbon has a cache
