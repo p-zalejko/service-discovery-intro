@@ -83,7 +83,7 @@
 * DNS Service Discovery (DNS-SD)
 * Service Location Protocol (SLP)
 * Apache Zookeeper, Consul, etcd, Netflix Eureka etc.
-
+* "Provisioned" solutions (AWS ELS, k8s Service etc.)
 
 ---
 
@@ -125,7 +125,8 @@ Ingress exposes services
 - uses selectors
 
 Note:
-k8s uses etcd
+* k8s uses etcd
+* selector can "cover" many deployments, not just one
 
 ---
 
@@ -154,7 +155,9 @@ spec:
 [source](https://www.codeprimers.com/client-side-service-discovery-in-spring-boot-with-netflix-eureka/)
 
 Note:
-core elements: registry and client
+* core elements: registry and client
+* server(registry) exposes REST API
+* look up regisry BUT caches results!
 
 ---
 
