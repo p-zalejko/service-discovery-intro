@@ -96,9 +96,9 @@
 - Ingress
 
 Note: 
-ReplicaSet ensures that a specified number of pod replicas are running
-Deployment manages ReplicaSets, rollback to an earlier Deployment revision
-Ingress exposes services
+* ReplicaSet ensures that a specified number of pod replicas are running
+* Deployment manages ReplicaSets, rollback to an earlier Deployment revision
+* Ingress exposes services
 
 ---
 
@@ -179,10 +179,10 @@ Hint: Ribbon can be integrated with service discovery frameworks!
 [read this: Client cache refresh + LoadBalancer refresh](https://github.com/spring-cloud/spring-cloud-netflix/issues/373#issuecomment-110331739)
 
 Note:
-ribbon has a cache
-eureka client has a cache
-ribbon calls eureka client :-)
-caches are not sychronized! refresh can take event 30s+30s = 1min!
+* ribbon is a load balancer - it has a cache
+* eureka client is a "source" of the service list - it has a cache
+* ribbon calls eureka client :-)
+* caches are not sychronized! refresh can take event 30s+30s = 1min!
 
 ---
 
@@ -221,7 +221,7 @@ Note:
 * ribbon (`ServerListRefreshInterval`)
 
 Note: 
-client-side load balancers need to get the  new list of services
+* client-side load balancers need to get the  new list of services
 
 ---
 
@@ -248,10 +248,10 @@ client-side load balancers need to get the  new list of services
 * ... and you have eureka with self-preservation mode
 
 Note:
-low number of instances is a problem (early stage of the project)
-x=5
-y=2
-z=2
+* low number of instances is a problem (early stage of the project)
+* x=5
+* y=2
+* z=2
 
 ---
 
@@ -261,9 +261,9 @@ z=2
 always...
 
 Note: 
-deregister from external systems, brokers, databases etc.
-create a proper dockerfile configuration
-use readiness and liveness
+* deregister from external systems, brokers, databases etc.
+* create a proper dockerfile configuration
+* use readiness and liveness
 
 ---
 
@@ -277,8 +277,8 @@ use readiness and liveness
 * stop it now
 
 Note:
-Count time of refresh, all parts.
-Ribbon, eureka client and server
+* Count time of refresh, all parts.
+* Ribbon, eureka client and server
 
 ---
 
