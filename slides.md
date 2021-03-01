@@ -270,7 +270,7 @@ Ribbon, eureka client and server
 * blue-green deployment
 * weighted routing
 * routing/LB to external services
-* [From Service Discovery to Service Mesh](https://thenewstack.io/observability-from-service-discovery-to-service-mesh/)
+* [Observability: From Service Discovery to Service Mesh](https://thenewstack.io/observability-from-service-discovery-to-service-mesh/)
 
 
 ---
