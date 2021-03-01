@@ -96,7 +96,9 @@
 - Ingress
 
 Note: 
-ingress exposes services)
+ReplicaSet ensures that a specified number of pod replicas are running
+Deployment manages ReplicaSets, rollback to an earlier Deployment revision
+Ingress exposes services
 
 ---
 
