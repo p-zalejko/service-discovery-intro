@@ -165,6 +165,10 @@ Note:
 
 ![title](assets/img/ribbon.jpg)
 
+Controversial opinion: you might be using Ribbon and do not know about it!
+* [Ribbon+RestTemplate](https://spring.io/guides/gs/client-side-load-balancing/)
+* [Ribbon+feign client](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html)
+
 [source](https://www.javaxp.com/2020/06/client-side-load-balancing-using-eureka.html)
 
 
