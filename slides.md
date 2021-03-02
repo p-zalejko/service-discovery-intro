@@ -12,11 +12,6 @@
 [source](https://www.getambassador.io/resources/service-discovery-microservices/)
 
 
-> Service discovery is the automatic detection of devices and services offered by these devices on a computer network.
-
-[source](https://en.wikipedia.org/wiki/Service_discovery)
-
-
 ---
 
 ## The problem
