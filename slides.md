@@ -84,7 +84,7 @@
 
 ## k8s - basics
 
-- Deplpyment
+- Deployment
 - ReplicaSet
 - Pod
 - Service
